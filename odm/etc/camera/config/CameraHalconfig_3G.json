@@ -1,0 +1,23 @@
+{
+"PinLibs": [
+"/vendor/lib64/libVDPostureDetection.so",
+"/vendor/lib64/libFaceBeautyCap.so",
+"/vendor/lib64/parkera_qtech_main_ov13b10_tuning.so",
+"/vendor/lib64/parkera_qtech_main_ov13b2a_tuning.so",
+"/vendor/lib/libPerfectlyClearCrux.so",
+"/vendor/lib/libMtkOmxMp3Dec.so",
+"/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+"/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+"/system/lib/libperfctl.so",
+"/system/lib64/libperfctl.so",
+"/vendor/lib/hw/gralloc.rogue.so",
+"/vendor/lib64/hw/gralloc.rogue.so",
+"/vendor/lib/libmpvr.so",
+"/apex/com.android.media.swcodec/lib64/libcodec2_soft_vorbisdec.so",
+"/apex/com.android.vndk.v30/lib64/hw/android.hidl.memory@1.0-impl.so",
+"/system/lib/libnetd_client.so",
+"/system/lib64/libnetd_client.so",
+"/system/lib/libEGL.so",
+"/system/lib64/libEGL.so"
+]
+}

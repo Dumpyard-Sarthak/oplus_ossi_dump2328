@@ -1,0 +1,8 @@
+
+<permissions>
+    <!-- FanLei@ANDROID.BIOMETRICS, 2021/03/16,remove optical fp feature -->
+    <!--<feature name="oppo.hardware.fingerprint.optical.support" />-->
+    <feature name="com.oppo.feature.screen.heteromorphism" />
+    <feature name="oppo.display.screen.underlightsensor.support" />
+    <feature name="oppo.aod.prevent.burn.support" />
+</permissions>

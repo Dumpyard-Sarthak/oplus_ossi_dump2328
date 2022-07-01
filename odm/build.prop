@@ -1,0 +1,70 @@
+# build prop start
+ro.build.release_type=true
+persist.sys.assert.state=false
+persist.sys.assert.panic=false
+persist.sys.alwayson.enable=false
+persist.sys.dump=0
+persist.sys.powerkeydump=0
+persist.sys.assert.enabletip=0
+persist.sys.log.user=1
+persist.sys.mtk.pwkdump=0
+persist.vendor.engineer.hide.log=6996
+persist.vendor.engineer.hide.warn=6776
+ro.product.bootreg.disable.command=true
+ro.com.android.dataroaming=false
+persist.vendor.radio.telecom.vibrate=0
+ro.build.device_family=OPMT6765
+persist.sys.oplus.wmark_extra_free_kbytes_3g=49152
+persist.sys.oplus.wmark_extra_free_kbytes_4g=65536
+sys.oplus.pin_launcher_bytes=12582912
+dalvik.vm.madvise.vdexfile.size=0
+dalvik.vm.madvise.odexfile.size=0
+dalvik.vm.madvise.artfile.size=0
+persist.sys.midasd.enable_override=0
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=420
+ro.camera.portrait.blur.level.enable=1
+ro.oplus.system.camera.name=com.oplus.camera
+ro.separate.soft=20378
+ro.build.product=CPH2269
+ro.vendor.product.oem=CPH2269
+ro.com.google.clientidbase=android-oppo
+ro.product.authentication=0
+ro.oppo.market.name=OPPO A16
+ro.vendor.oplus.market.name=OPPO A16
+ro.vendor.product.device.oem=CPH2269
+ro.commonsoft.ota=CPH2269
+persist.version.confidential=false
+ro.version.confidential=false
+ro.build.version.opporom=V7.2
+ro.build.kernel.id=4.19.191
+ro.mediatek.version.release=CPH2269_11_A.01_220621
+ro.vendor.mediatek.version.release=CPH2269_11_A.01_220621
+ro.build.display.id_ims=CPH2269_11_A.01_220621
+ro.build.display.id=CPH2269_11_A.01
+ro.sys.reserve.integrate=true
+persist.sys.oplus.fusionlight=true
+persist.sys.oplus.proximity=true
+ro.lmk.limit_killing_array_kb=2097152,1048576,655360,491520
+persist.sys.oplus.nandswap.condition=true
+persist.sys.oplus.hybridswap_app_memcg=true
+persist.sys.oplus.nandswap=true
+############################## Add OPPO Info Common Begin ##############################
+persist.vendor.radio.nr_display_rule=0
+persist.vendor.radio.lte_con_stat_delay_timer=0
+persist.vendor.radio.scg_con_stat_delay_timer=0
+persist.vendor.radio.support_optimized_nr=false
+############################## Add OPPO Info Common End ##############################
+ro.display.rc.size=81,81,66,66
+ro.oppo.screen.heteromorphism=296,0:424,43
+ro.display.underscreen.lightsensor.support=1
+ro.lcd.display.screen.underlightsensor.region=652,0,689,37
+ro.oplus.lcd.display.screen.underlightsensor.region=652,0,689,37
+ro.sf.lcd_density=320
+odm.dirac.path=/odm/etc/dirac
+# Auto-added by post_process_props.py
+ro.oplus.image.odm.type=20378
+import /odm/etc/${ro.boot.prjname}/build.prop
+import /mnt/vendor/my_manifest/build.prop
+# DONOT_GENERATE_FEC is 
+ro.oplus.image.odm.version=version_stub.d4eab790

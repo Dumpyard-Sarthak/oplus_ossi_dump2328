@@ -1,0 +1,72 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=SP1A.210812.016
+ro.product.manufacturer=OPPO
+ro.product.brand=OPPO
+ro.product.model=CPH2269
+ro.product.name=CPH2269EEA
+ro.product.device=OP4F97
+ro.product.first_api_level=30
+ro.board.first_api_level=30
+ro.build.version.incremental=R.202206202200
+ro.build.version.base_os=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206061900:user/release-keys
+ro.build.version.release=12
+ro.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.odm.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.odm.build.version.incremental=R.202206202200
+ro.product.odm.brand=OPPO
+ro.product.odm.manufacturer=OPPO
+ro.product.odm.model=CPH2269
+ro.product.odm.device=OP4F97
+ro.product.odm.name=CPH2269EEA
+ro.odm.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.odm.build.date.utc=1655746942
+ro.system.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.system.build.version.incremental=R.202206202200
+ro.product.system.brand=OPPO
+ro.product.system.manufacturer=OPPO
+ro.product.system.model=CPH2269
+ro.product.system.device=OP4F97
+ro.product.system.name=CPH2269EEA
+ro.system.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.system.build.date.utc=1655746942
+ro.bootimage.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.bootimage.build.version.incremental=R.202206202200
+ro.product.bootimage.brand=OPPO
+ro.product.bootimage.manufacturer=OPPO
+ro.product.bootimage.model=CPH2269
+ro.product.bootimage.device=OP4F97
+ro.product.bootimage.name=CPH2269EEA
+ro.bootimage.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.bootimage.build.date.utc=1655746942
+ro.vendor.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.vendor.build.version.incremental=R.202206202200
+ro.product.vendor.brand=OPPO
+ro.product.vendor.manufacturer=OPPO
+ro.product.vendor.model=CPH2269
+ro.product.vendor.device=OP4F97
+ro.product.vendor.name=CPH2269EEA
+ro.vendor.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.vendor.build.date.utc=1655746942
+ro.system_ext.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.system_ext.build.version.incremental=R.202206202200
+ro.product.system_ext.brand=OPPO
+ro.product.system_ext.manufacturer=OPPO
+ro.product.system_ext.model=CPH2269
+ro.product.system_ext.device=OP4F97
+ro.product.system_ext.name=CPH2269EEA
+ro.system_ext.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.system_ext.build.date.utc=1655746942
+ro.product.build.fingerprint=OPPO/CPH2269EEA/OP4F97:12/SP1A.210812.016/R.202206202200:user/release-keys
+ro.product.build.version.incremental=R.202206202200
+ro.product.product.brand=OPPO
+ro.product.product.manufacturer=OPPO
+ro.product.product.model=CPH2269
+ro.product.product.device=OP4F97
+ro.product.product.name=CPH2269EEA
+ro.product.build.date=Tue Jun 21 01:42:22 CST 2022
+ro.product.build.date.utc=1655746942
+
+# OPPO

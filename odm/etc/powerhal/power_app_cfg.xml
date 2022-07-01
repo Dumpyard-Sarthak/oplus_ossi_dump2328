@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+    <Package name="cn.wsds.gamemaster">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="2"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.sgame">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+			<data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+			<data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="my.beautyCamera">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.mobileqq">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="air.tv.douyu.android">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.meitu.makeup">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.ko">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.hyxd">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.maimiao.live.tv">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.ak">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ak.mi">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.cldts">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.zjz">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.clfz">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgmhd">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+			<data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgm">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.vectorunit.red">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_FPS_FSTB_FPS_LOWER" param1="60"></data>
+			<data cmd="PERF_RES_FPS_FSTB_FPS_UPPER" param1="60"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.nexon.da3.global">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+			<data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="25"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ngame.allstar.eu">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.garena.game.kgtw">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="60"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.ig">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="mini.block.craft.free.mc">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.firsttouchgames.dls7">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.king.bubblewitch3">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.king.candycrush4">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_SCHED_BOOST" param1="1"></data>
+			<data cmd="PERF_RES_TOUCH_CHANGE_RATE" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FPSGO_DEP_FRAMES" param1="20"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="50"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="4"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="30"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="30"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.mobile.legends">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="2074000"></data>
+			<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1491000"></data>
+			<data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+			<data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+			<data cmd="PERF_RES_GPU_GED_DVFS_LOADING_MODE" param1="1"></data>
+			<data cmd="PERF_RES_NET_WIFI_LOW_LATENCY" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_MARGIN_MODE" param1="110"></data>
+			<data cmd="PERF_RES_FPS_FBT_SHORT_RESCUE_NS" param1="16666666"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="40"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="15"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
+			<data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+			<data cmd="PERF_RES_GPU_GED_TIMER_BASE_DVFS_MARGIN" param1="50"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.king.candycrushsaga">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ludo.king">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_KMIN" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="60"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.neptune.dominogl">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+			<data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_C" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FBT_KMIN" param1="0"></data>
+			<data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="60"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.supercell.clashroyale">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.dts.freefireth">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.kiloo.subwaysurf">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.supercell.brawlstars">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.garena.game.kgth">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.h8games.helixjump">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.garena.game.kgtw">
+        <Activity name="Common">
+		<FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+		</FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.dialer">
+        <Activity name="Common">
+                <FPS value="Common">
+			<data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+			<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1351000"></data>
+			<data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1226000"></data>
+                </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.whatsapp">
+        <Activity name="Common">
+                <FPS value="Common">
+                        <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1351000"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1226000"></data>
+                </FPS>
+        </Activity>
+    </Package>
+	<Package name="com.lazada.android">
+        <Activity name="Common">
+                <FPS value="Common">
+                        <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1351000"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1226000"></data>
+                </FPS>
+        </Activity>
+    </Package>
+	<Package name="com.twitter.android">
+        <Activity name="Common">
+                <FPS value="Common">
+                        <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1351000"></data>
+                        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1226000"></data>
+                </FPS>
+        </Activity>
+    </Package>
+</WHITELIST>
